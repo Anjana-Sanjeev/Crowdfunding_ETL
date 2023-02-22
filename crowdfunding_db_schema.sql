@@ -1,4 +1,6 @@
-﻿-- Link to schema: https://app.quickdatabasediagrams.com/#/d/HeIDIF
+﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/HeIDIF
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
 CREATE TABLE "campaign" (
@@ -30,7 +32,7 @@ CREATE TABLE "category" (
 );
 
 CREATE TABLE "subcategory" (
-    "subcategory_id" VAARCHAR(10)   NOT NULL,
+    "subcategory_id" VARCHAR(10)   NOT NULL,
     "subcategory" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_subcategory" PRIMARY KEY (
         "subcategory_id"
