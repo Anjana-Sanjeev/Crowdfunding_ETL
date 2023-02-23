@@ -2,7 +2,7 @@
 
 In this repo:
 
-* The "Resources" folder contains two xlsx files use for the analysis.
+* The "Resources" folder contains two xlsx files used for the analysis.
 * The "ETL_Mini_Project_ASanjeev" jupyter file is the main script which creates the four dataframes need for the project.
 * The "Output DataFrames" folder contains the four dataframes/csv files created using the main script.
 * The "crowdfunding_db_schema_ERD" is the image file which shows the ERD between the four dataframes created.
