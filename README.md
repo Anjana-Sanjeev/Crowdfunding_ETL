@@ -6,8 +6,7 @@ In this repo:
 * The "ETL_Mini_Project_ASanjeev" jupyter file is the main script which creates the four dataframes need for the project.
 * The "Output DataFrames" folder contains the four dataframes/csv files created using the main script.
 * The "crowdfunding_db_schema_ERD" is the image file which shows rhe ERD between the four dataframes created.
-* The "crowdfunding_db_schema" is the SQL file which use the information from the ERD to create a table schema for each csv file.
-* The "crowdfunding_db" is the main SQL file which is used to create four tables for the four dataframes created and display each table using SELECT * statment.
+* The "crowdfunding_db_schema" is the main SQL file which is used to create four tables for the four dataframes created and display each table using SELECT * statment.
 * The "SQL table output" folder contains the images of the successful creation of four tables using the "crowdfunding_db" SQL file.
 
 # Summary
@@ -57,7 +56,6 @@ The following points were achieved using the resources files:
 
     * Inspect the four CSV files, and then sketch an ERD of the tables  by using QuickDBD.
     * A database schema labelled, crowdfunding_db_schema.sql is created.
-    * A crowdfunding_db.sql is created using the crowdfunding_db_schema.sql file
     * The database has the appropriate primary and foreign keys and relationships.
     * Each CSV file is imported into the appropriate table without errors.
     * The data from each table is displayed using a SELECT * statement.
